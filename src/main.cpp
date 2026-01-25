@@ -1,11 +1,13 @@
 #include <iostream>
+#include <string>
 
 int main() 
+
 {
 
 
 
-std::cout  << "hello world";
+std::cout  << "Warehouse Simulator Starting... \n" << "System Online \n" <<std::endl;
 
 
 return 0;

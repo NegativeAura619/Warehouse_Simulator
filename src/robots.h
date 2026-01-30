@@ -8,7 +8,6 @@ public:
    Robot(int xx, int yy)
     : posx{xx}, posy{yy}
    {
-    std::cout << "robots starting positions: " << posx << " " <<  posy << std::endl;
    }
 
 };

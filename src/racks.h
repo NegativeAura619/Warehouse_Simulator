@@ -10,7 +10,7 @@ public:
      int itemQuantity;
      std::string itemName;
 
-     Rack(int y, int x, const std::string& name, int quantity)
+     Rack(int x, int y, const std::string& name, int quantity)
      : rack_x{x}, rack_y{y}, itemQuantity{quantity}, itemName{name}
      {}
 

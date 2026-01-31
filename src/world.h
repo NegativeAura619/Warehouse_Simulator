@@ -3,7 +3,7 @@
 #include <vector>
 #include "robots.h"
 #include "racks.h"
-
+#include "orders.h"
 
 class World{
 
@@ -13,10 +13,7 @@ public:
 
   std::vector<Robot> robots;
   std::vector<Rack> racks;
-
-
-
-
+  std::vector<Order> orders;
 
 
 };

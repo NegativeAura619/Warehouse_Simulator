@@ -18,10 +18,13 @@ std::string productName;
           controlNumber{controlNumber_f},
           productName(productName_f),
           isComplete{false}
-{}
-
-};
+{
+}
 
 Order createFixedOrder();
+
+
+
+};
 
 

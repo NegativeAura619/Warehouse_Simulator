@@ -2,7 +2,7 @@
 
 echo "Building warehouse simulator..."
 
-g++ main.cpp world.cpp -o warehouse_sim
+g++ main.cpp world.cpp orders.cpp -o warehouse_sim
 
 if [ $? -eq 0 ]; then
     echo "Build OK"

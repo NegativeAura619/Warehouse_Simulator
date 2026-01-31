@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include "robots.h"
-#include "orders.h"
 #include "racks.h"
 #include "world.h"
 #include <vector>
@@ -13,8 +12,8 @@ std::cout  << "Warehouse Simulator Starting... \n" << "System Online \n" <<std::
 
 World world;
 
-std::cout << "Robots avalible: " << world.robots.size() << "\n"
-          << "First robot posiiton: "
+std::cout << "Robots avalible: " << world.robots.size() << "\n";
+std::cout << "First robot posiiton: "
           << world.robots[0].posx << ","
           << world.robots[0].posy << "\n";
 
@@ -23,9 +22,9 @@ std::cout << "Racks Avalible on position: " << world.racks[0].rack_x << ","
           << "Item loaded on rack 0: " << world.racks[0].itemName << std::endl
           << "Item quantity on rack 0: " << world.racks[0].itemQuantity << std::endl;
 
-std::cout << "Generating first order" << "\n"
-          << "Quantity: "
-          << world.orders[0].quantity << ",";
+std::cout << "Preparing First Order: " << std::endl;
+std::cout << "quant: " world.orders[0].quantity << " control number: " << world.orders[0] 
+
 
 
 

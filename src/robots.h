@@ -4,10 +4,13 @@ class Robot
 {
 public:
    int posx, posy;
+   bool busy;
 
-   Robot(int xx, int yy)
-    : posx{xx}, posy{yy}
+   Robot(int x, int y, bool busy_f)
+    : posx{x}, posy{y}, busy{busy_f}
    {
    }
 
 };
+
+bool  isBusy const();
